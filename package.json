@@ -1,15 +1,26 @@
 {
   "name": "contactbook-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "Anh Khanh",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttakhanh/AnhKhanh2911.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ttakhanh/AnhKhanh2911/issues"
+  },
+  "homepage": "https://github.com/ttakhanh/AnhKhanh2911#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
